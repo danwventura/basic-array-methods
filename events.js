@@ -21,6 +21,9 @@ var article = document.getElementsByName("article-section")
 
 //Adding Event Listener to display message when mouse hovers over title.
 title.addEventListener("mouseover", function  (){
-  output.innerHTML = "You moved your mouse over the header";
+  output.innerHTML = "You moved your mouse over the header!";
 })
 
+title.addEventListener("mouseleave", function  (){
+  output.innerHTML = "You left header!";
+})
