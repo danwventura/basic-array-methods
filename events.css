@@ -28,3 +28,13 @@
 .block{
   display: block;
 }
+
+
+#first{
+  font-weight: bold;
+}
+
+#last{
+  font-weight: bold;
+  font-style: italic;
+}
