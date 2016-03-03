@@ -24,6 +24,12 @@ title.addEventListener("mouseover", function  (){
   output.innerHTML = "You moved your mouse over the header!";
 })
 
+//Adding Event Listener to display message when mouse leaves title.
 title.addEventListener("mouseleave", function  (){
   output.innerHTML = "You left header!";
+})
+
+//Adding Event Listener to change guineapig text color.
+colorBtn.addEventListener("click", function (){
+  guineaPig.classList.toggle("blue");
 })

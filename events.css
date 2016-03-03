@@ -1,0 +1,30 @@
+
+/*Makes the text color blue*/
+.blue {
+  color:blue;
+}
+
+/**/
+.large{
+  font-size: 1.5em;
+}
+
+.border {
+  border: 2em inset red;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.ital {
+  font-style: italic;
+}
+
+.block{
+  display: block;
+}
