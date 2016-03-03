@@ -33,3 +33,9 @@ title.addEventListener("mouseleave", function  (){
 colorBtn.addEventListener("click", function (){
   guineaPig.classList.toggle("blue");
 })
+
+//Adding Event Listener to change guineapig text to larger font.
+hulkifyBtn.addEventListener("click", function(){
+  guineaPig.classList.toggle("large");
+})
+
