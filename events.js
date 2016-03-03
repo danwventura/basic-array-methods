@@ -11,7 +11,16 @@ var title = document.getElementById("page-title")
 var article = document.getElementsByName("article-section")
 //getElementsByName --> [always returns array]
 
-console.log(output);
 
 //Adding event listener for click --> "You clicked (section) section"
-// article.addEventListener("click", function ())
+// article.addEventListener("click", function (){
+  // output.innerHTML = ""
+
+// })
+
+
+//Adding Event Listener to display message when mouse hovers over title.
+title.addEventListener("mouseover", function  (){
+  output.innerHTML = "You moved your mouse over the header";
+})
+
