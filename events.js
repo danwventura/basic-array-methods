@@ -39,3 +39,7 @@ hulkifyBtn.addEventListener("click", function(){
   guineaPig.classList.toggle("large");
 })
 
+//Adding Event Listener to give guineapig a border.
+addBorderBtn.addEventListener("click", function(){
+  guineaPig.classList.toggle("border");
+})
