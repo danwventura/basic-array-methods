@@ -43,3 +43,9 @@ hulkifyBtn.addEventListener("click", function(){
 addBorderBtn.addEventListener("click", function(){
   guineaPig.classList.toggle("border");
 })
+
+//Adding Event Listener to change border radius of guineapigs border
+roundBorder.addEventListener("click", function(){
+  guineaPig.classList.toggle("rounded");
+})
+

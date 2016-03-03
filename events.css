@@ -10,11 +10,11 @@
 }
 
 .border {
-  border: 2em inset red;
+  border: 5px inset red;
 }
 
 .rounded {
-  border-radius: 10px;
+  border-radius: 200px;
 }
 
 .bold{
