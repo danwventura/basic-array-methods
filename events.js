@@ -13,10 +13,17 @@ var article = document.getElementsByName("article-section")
 
 
 //Adding event listener for click --> "You clicked (section) section"
+
+
 // article.addEventListener("click", function (){
   // output.innerHTML = ""
 
 // })
+
+// Adding Event Listener to mirror keypress input text to output-target
+keypress.addEventListener("keyup", function(){
+  output.innerHTML = keypress.value;
+})
 
 
 //Adding Event Listener to display message when mouse hovers over title.
